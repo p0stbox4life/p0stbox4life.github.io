@@ -24,11 +24,11 @@ header h1 {
 nav {
   background-color: #ffffff; /* Set background color */
   border-radius: 15px; /* Make the edges rounded */
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle drop shadow */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle drop shadow */
   padding: 10px; /* Add some padding */
   display: flex; /* Use flexbox to center the logo */
   align-items: center;
-  max-width: 600px; /* Set a maximum width */
+  max-width: 1800px; /* Set a maximum width */
   margin: 0 auto; /* Center the nav bar horizontally */
 }
 
