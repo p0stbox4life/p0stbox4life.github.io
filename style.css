@@ -20,35 +20,46 @@ header h1 {
   display: inline-block;
 }
 
+/* Styles for the navigation bar */
 nav {
-  background-color: #333;
-  border-radius: 10px;
-  padding: 10px;
+  background-color: #ffffff; /* Set background color */
+  border-radius: 15px; /* Make the edges rounded */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle drop shadow */
+  padding: 10px; /* Add some padding */
+  display: flex; /* Use flexbox to center the logo */
+  align-items: center;
+  max-width: 600px; /* Set a maximum width */
+  margin: 0 auto; /* Center the nav bar horizontally */
+}
+
+nav img {
+  height: 30px; /* Set the height of the logo */
+  margin-right: 10px; /* Add some space to the right of the logo */
 }
 
 nav ul {
+  list-style: none; /* Remove default list styles */
   margin: 0;
   padding: 0;
-  list-style: none;
-  display: flex;
-  justify-content: center;
+  display: flex; /* Use flexbox to evenly space the navigation links */
+  justify-content: space-between;
+  flex-grow: 1; /* Allow the navigation links to take up all available space */
 }
 
 nav li {
-  margin: 0 10px;
+  margin: 0 10px; /* Add some space between the navigation links */
 }
 
-nav li a {
-  display: block;
-  padding: 10px;
-  border-radius: 5px;
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
+nav a {
+  color: #333333; /* Set link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make the text bold */
+  font-size: 16px; /* Set font size */
+  transition: color 0.3s ease-in-out; /* Add a smooth transition */
 }
 
-nav li a:hover {
-  background-color: #555;
+nav a:hover {
+  color: #666666; /* Change link color on hover */
 }
 
 main section {
